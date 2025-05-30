@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Sign In - Code Labs Academy - Competitive Programming Platform"
+    />
+    <meta name="author" content="Sample Landing Page by mrKevler" />
+    <title>Sign In - Code Labs Academy</title>
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Vertical navigation -->
+      <nav>
+        <div class="logo">
+          <img src="./assets/image/logo.svg" alt="Code Labs Academy Logo" />
+        </div>
+        <ul class="nav-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#features">Features</a></li>
+          <li><a href="index.html#about">About</a></li>
+        </ul>
+        <div class="nav-actions">
+          <a href="sign-in.html" class="login-button active">Login</a>
+          <a href="sign-up.html" class="signup-link">Sign Up</a>
+        </div>
+      </nav>
+
+      <!-- Main content -->
+      <main>
+        <!-- Sign In Form Section -->
+        <section class="form-section">
+          <div class="form-container">
+            <div class="form-content">
+              <div class="form-side">
+                <div class="form-header">
+                  <h1>Login Now!</h1>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.
+                  </p>
+                  <p class="form-subtitle">
+                    New to Code Labs? <a href="sign-up.html">Create account</a>
+                  </p>
+                </div>
+
+                <form class="signin-form">
+                  <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required />
+                  </div>
+
+                  <div class="form-group">
+                    <label for="password">Password</label>
+                    <input
+                      type="password"
+                      id="password"
+                      name="password"
+                      required
+                    />
+                  </div>
+
+                  <button type="submit" class="cta-button">Sign In</button>
+                </form>
+
+                <p class="form-footer">
+                  Don't have an account? <a href="sign-up.html">Sign up here</a>
+                </p>
+              </div>
+
+              <div class="image-side">
+                <img
+                  src="./assets/image/coding.png"
+                  alt="Coding illustration"
+                  class="form-image"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+          <div class="footer-content">
+            <h3>Code Labs Academy</h3>
+            <p>Sample Landing Page by mrKevler</p>
+            <div class="contact-info">
+              <strong>Contact:</strong><br />
+              CLA Code Labs GmbH<br />
+              +49 30 83793271<br />
+              hello@codelabsacademy.com
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <p>
+              &copy; <span id="currentYear">2025</span> Code Labs Academy.
+              Sample Landing Page by
+              <strong><a href="https://bartoszsergot.com">mrKevler</a></strong
+              >.
+            </p>
+          </div>
+        </footer>
+      </main>
+    </div>
+    <script src="./assets/script/script.js"></script>
+  </body>
+</html>
