@@ -31,7 +31,7 @@
 
 ## 🚀 Project Overview <a name="-project-overview"></a>
 
-This is a sample landing page built with HTML, CSS and JavaScript 💫  
+This is a sample landing page built with HTML, CSS and JavaScript with responsive design, featuring landing page, signup and signin forms 💫   
 Built with semantic HTML5, modern CSS3 and vanilla JavaScript to showcase professional web development patterns 🎨
 
 This tutorial is perfect for learning modern web design and responsive layout techniques 🎓
